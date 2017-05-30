@@ -1,0 +1,26 @@
+{
+  "name": "lodash4cookbook",
+  "version": "1.0.0",
+  "description": "Code sample of Lodash 4 Cookbook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VividcodeIO/lodash4cookbook.git"
+  },
+  "keywords": [
+    "javascript",
+    "lodash"
+  ],
+  "author": "Fu Cheng <alexcheng1982@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VividcodeIO/lodash4cookbook/issues"
+  },
+  "homepage": "https://github.com/VividcodeIO/lodash4cookbook#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
