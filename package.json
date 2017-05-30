@@ -4,7 +4,7 @@
   "description": "Code sample of Lodash 4 Cookbook",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
   "homepage": "https://github.com/VividcodeIO/lodash4cookbook#readme",
   "dependencies": {
     "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "jest": "^20.0.4"
   }
 }
