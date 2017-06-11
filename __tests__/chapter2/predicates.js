@@ -3,9 +3,7 @@ const users = require('./users.json');
 
 describe('find with different predicates', () => {
   it('should find with a function', () => {
-    let user = find(users, function(user) {
-      return user.age > 18;
-    });
+    let user = find(users, user => user.age > 18);
     expect(user).toBeDefined();
     expect(user.name).toBe('Alex');
   });

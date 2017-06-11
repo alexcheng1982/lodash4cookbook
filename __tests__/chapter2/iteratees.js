@@ -3,9 +3,7 @@ const users = require('./users.json');
 
 describe('map with iteratees', () => {
   it('should map with an iteratee function', () => {
-    let result = map([1, 2, 3], function(n) {
-      return n * 3;
-    });
+    let result = map([1, 2, 3], n => n * 3);
     expect(result).toEqual([3, 6, 9]);
   });
 
