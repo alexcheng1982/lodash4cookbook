@@ -1,5 +1,5 @@
 const partition = require('lodash/partition');
-const fruits = require('./fruits.json');
+const fruits = require('../data/fruits.json');
 
 describe('partition', () => {
   it('should support arrays', () => {

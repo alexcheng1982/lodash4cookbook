@@ -5,7 +5,7 @@ describe('map', () => {
     expect(map([1, 2, 3], n => n * 2)).toEqual([2, 4, 6]);
   });
 
-  it('should support predicate syntax', () => {
+  it('should support iteratee syntax', () => {
     const users = [
       {
         name: 'Alex',

@@ -1,5 +1,5 @@
 const find = require('lodash/find');
-const users = require('./users.json');
+const users = require('../data/users.json');
 
 describe('find with different predicates', () => {
   it('should find with a function', () => {

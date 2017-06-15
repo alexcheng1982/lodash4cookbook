@@ -1,5 +1,5 @@
 const map = require('lodash/map');
-const users = require('./users.json');
+const users = require('../data/users.json');
 
 describe('map with iteratees', () => {
   it('should map with an iteratee function', () => {
